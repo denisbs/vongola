@@ -1,3 +1,10 @@
-ksdsdldfslfjcfnlac
-hadouken!
-give me the money
+import urllib.request
+#from bs4 import beautifulsoup
+
+print ("Exemplo: www.exemplo.com")
+url = input("Digite o site da pesquisa: ")
+url2 = ("http://") + url
+
+request = urllib.request.urlopen(url2)
+document = request.read()
+print (document) 
