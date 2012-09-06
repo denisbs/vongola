@@ -1,10 +1,11 @@
 import urllib.request
-#from bs4 import beautifulsoup
+import bs4
+url = input("Digite o site da pesquisa")
 
-print ("Exemplo: www.exemplo.com")
-url = input("Digite o site da pesquisa: ")
-url2 = ("http://") + url
-
-request = urllib.request.urlopen(url2)
+request = urllib.request.urlopen(url)
 document = request.read()
-print (document) 
+
+soup = bs4.BeautifulSoup(document)
+
+for link in soup.findAll('a'):
+        print (link.get('href'))
