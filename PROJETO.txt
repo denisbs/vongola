@@ -1,0 +1,2 @@
+﻿Titulo: Web Crawler Kaizoku 
+Descrição: Desenvolvemos uma aplicação que  percorre uma página web e retorna a lista de links  ou imagens existentes dessa página.

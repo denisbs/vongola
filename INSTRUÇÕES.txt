@@ -1,0 +1,3 @@
+﻿Compilação: Pode ser compilado no proprio GUI do python
+Instalação: Necessario esta instalado as bibliotecas "beautifulsoup e cherrypy"
+Execução: Pode executar pelo proprio GUI do Python ou pelo DOS 
